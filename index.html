@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Simplified</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
     <section>
-        <nav> <img src="./HTML Practise Assets/FES.svg" alt="">
-        </nav>
+      <nav>
+        <img src="./HTML Practise Assets/FES.svg" class="logo" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div>
+          <h1>Best place to learn Frontend</h1>
+          <p class="subheader">Go from absolute beginner to pro with a simplifed process</p>
+          <button>Start Now</button>
+        </div>
+        <figure>
+          <img src="./HTML Practise Assets/laptop.png" alt="Home page image" />
+        </figure>
+      </header>
     </section>
-</body>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            asperiores nobis exercitationem itaque cumque natus voluptatibus eos
+            molestiae quis magnam.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            explicabo labore nobis? Dolores iste in ab eum dolorum voluptatem
+            fuga, magnam aliquam placeat ut nam eaque amet harum similique
+            consequuntur?
+          </p>
+          <figure><img src="./HTML Practise Assets/about.jpg" alt="" /></figure>
+        </div>
+      </section>
+      <section id="discord">
+        <h2>Discord</h2>
+        <figure><img src="./HTML Practise Assets/discord.png" alt="" /></figure>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum
+          commodi quo architecto vitae sed? Nisi, optio. Cumque, quibusdam?
+          Magnam, laudantium reiciendis. Minima veniam at eveniet! Aliquam
+          dolorum vero quos suscipit cupiditate similique reprehenderit illo
+          consequuntur qui. Quisquam dolor quasi et.
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eaque
+          architecto modi, eligendi qui, dolorem at, iusto alias aliquid atque
+          optio dolores cumque unde possimus.
+        </p>
+      </section>
+      <section id="contact">
+        <form action="">
+          <span>Email</span>
+          <input type="text" placeholder="john@example.com" />
+          <span>Message</span>
+          <textarea type="text" placeholder="Happy Coding!"></textarea>
+        </form>
+        <button>Submit</button>
+      </section>
+    </main>
+    <footer>
+      <img src="./HTML Practise Assets/FES.svg" alt="" />
+      <div>
+        <a href="#about">About</a>
+        <a href="#discord">Discord</a>
+        <a href="#contact">Contact</a>
+        <a href="">Courses</a>
+      </div>
+      <p>Copyright Frontend Simplified 2024</p>
+    </footer>
+  </body>
 </html>
